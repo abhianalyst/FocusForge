@@ -21,3 +21,6 @@ Install Python 3.12 (64-bit), then run in PowerShell:
 Open the repository Actions tab. Run Build Windows Installer, or push a commit to main. Download the FocusForge-Windows-Installer artifact from a successful workflow run.
 
 Uninstalling the application does not remove the database from Local AppData.
+
+
+Build workflow configured: every push to main attempts a Windows x64 installer build.
